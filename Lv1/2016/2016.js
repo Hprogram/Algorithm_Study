@@ -31,7 +31,7 @@ function solution(a, b) {
 
   let result = day % 7;
 
-  return week[result];
+  return week[result]; // 해당 인덱스에 맞는 요일 출력
 }
 
 // 윤년이라는 걸 가정한 상태
