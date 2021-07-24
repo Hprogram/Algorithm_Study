@@ -24,15 +24,15 @@ function solution(numbers, hand) {
             lcount = Math.abs( left[0] - buttons[numbers[i]][0] ) + Math.abs( left[1] - buttons[numbers[i]][1] );
             rcount = Math.abs( right[0] - buttons[numbers[i]][0]) + Math.abs( right[1] - buttons[numbers[i]][1] );
             // 더 가까운 위치의 엄지를 사용하는 조건문을 추가
-            if(lcount > rcount){
+            if(lcount > rcount){    // 오른쪽 엄지가 더 가까울 때
                 answer =  answer + 'R';
                 right = buttons[numbers[i]];
                 
-            }else if(rcount > lcount){
+            }else if(rcount > lcount){  // 왼쪽 엄지가 더 가까울 떄
                 answer =  answer + 'L';
                 left = buttons[numbers[i]];
                 
-            }else if(rcount === lcount){
+            }else if(rcount === lcount){ // 중앙 기준
                 if(hand==='left'){
                     answer =  answer + 'L';
                     left = buttons[numbers[i]];
