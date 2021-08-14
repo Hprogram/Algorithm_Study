@@ -9,6 +9,7 @@ function solution(lottos, win_nums) {
     if (lottos[i] === 0) {
       nice[0] = nice[0] + 1;
     } else if (win_nums.includes(lottos[i])) {
+      // 당첨 번호에 포함되어있는지 체크
       nice[0] = nice[0] + 1;
       nice[1] = nice[1] + 1;
     }
