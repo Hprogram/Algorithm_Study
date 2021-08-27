@@ -1,7 +1,6 @@
 function solution(numbers) {
   // 각 숫자를 문자로 변환
   let nums = numbers.map((e) => e + "");
-  console.log(nums);
   // 숫자를 이어붙인뒤 대소 비교해서 정렬
   // ex) [ '6', '10', '2' ]
   // 1번째 610 106. 610이 더크기 떄문에 ['6','10','2']
