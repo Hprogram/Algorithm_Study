@@ -8,12 +8,12 @@
 
 ### 입출력 예
 
-|  arr | return |
-| :--: |:------:|
-|  10  |  true  |
-|  12  |  true  |
-|  11  | false  |
-|  13  | false  |
+| arr | return |
+| :-: | :----: |
+| 10  |  true  |
+| 12  |  true  |
+| 11  | false  |
+| 13  | false  |
 
 ### 입출력 예 설명
 
