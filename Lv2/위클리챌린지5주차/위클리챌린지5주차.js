@@ -8,6 +8,7 @@ function solution(word) {
     // 반복적인 입력을 줄이기 위해서 지정
     let x = 5 ** exponent;
     // 각 알파뱃 조건에 따라서 조건문 작성
+    // 변수 count의 값을 '반올림'하여 sum에 더해준다.
     // 'A'일 경우엔 해당 자리수의 처음에 있음
     if (word[i] === "A") {
       sum = sum + 1;
